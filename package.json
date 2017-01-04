@@ -4,7 +4,7 @@
   "description": "Creates a true array based on `arraylike`, starting at `startIndex`.",
   "main": "atoa.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bevacqua/atoa/issues"
   },
-  "homepage": "https://github.com/bevacqua/atoa#readme"
+  "homepage": "https://github.com/bevacqua/atoa#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
